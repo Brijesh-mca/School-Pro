@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+    
+  
+  
+body {
+    background-image: linear-gradient(to right, #a42b79 20%, #f06331);
+    
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 900 !important;
+    font-style: normal;
+  
+  
+    
+}
+
+.dark-mode {
+    background-image: linear-gradient(to right, #6a3adb 20%, #251b3e);
+
+}
+
+
+.card {
+
+
+    background: rgba(255, 255, 255, 0.10) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.74) !important;
+}
+
+.card:hover {
+    box-shadow: 0 4px 20px #000000ae !important;
+    background: rgba(255, 255, 255, 0.30) !important;
+}
+
+.card img {
+    border-radius: 20%;
+    padding-left: 16%;
+    padding-right: 16%;
+    padding-top: 5%;
+}
+
+.myBtn {
+    background-image: linear-gradient(to right, rgb(198, 198, 211), rgb(233, 177, 177));
+    font-weight: 800;
+    background-clip: text;
+    color: transparent;
+    border-radius: 30%;
+
+}
+
+.card:active {
+    background: #ffffff19 !important;
+}
+
+.card img:hover {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 4%;
+}
+
+.mycard {
+    height: 60px !important;
+    width: 60px !important;
+    border-radius: 50% !important;
+
+
+}
