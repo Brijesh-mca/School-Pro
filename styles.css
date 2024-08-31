@@ -14,6 +14,13 @@ body {
   
     
 }
+.dropdown-menu li a:hover{
+    background-color: rgba(0, 0, 0, 0.226);
+}
+li a{
+    color: white !important;
+    font-size: 1.2rem !important;
+}
 
 .dark-mode {
     background-image: linear-gradient(to right, #6a3adb 20%, #251b3e);
