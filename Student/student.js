@@ -25,6 +25,7 @@ function displayArea() {
     let forData = document.getElementById('forData');
     
 
+  
 
     //crear the area
 
@@ -33,7 +34,8 @@ function displayArea() {
 
 
     formDataList.forEach((data, index) => {
-        let div = document.createElement('div');
+        let div = document.createElement('li');
+        div.style.margin ="px";
 
      
 
@@ -41,7 +43,7 @@ function displayArea() {
                             
                             
         
-        div.textContent = ` Name - ${data.Student}  ,
+        div.textContent = `  Name - ${data.Student}  ,
     Class - ${data.Class}  ,
        Mobile No. - ${data.Mobile}` ;
                            
