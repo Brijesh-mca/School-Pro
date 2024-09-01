@@ -11,13 +11,13 @@ document.getElementById("getdata").addEventListener('submit', (e) => {
         Mobile: document.getElementById('Mobile').value,
     };
 
-
+    formDataList.push(formData);
     displayArea();
 
     document.getElementById("getdata").reset();
 
     // adding data to array
-    formDataList.push(formData);
+  
 
 })
 
