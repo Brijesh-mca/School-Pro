@@ -51,6 +51,10 @@ li a{
     -webkit-backdrop-filter: blur(5px) !important;
     border: 1px solid rgba(255, 255, 255, 0.74) !important;
 }
+.card div{
+  margin:3px;
+ 
+}
 
 .card:hover {
     box-shadow: 0 4px 20px #000000ae !important;
